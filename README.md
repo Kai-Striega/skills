@@ -11,13 +11,14 @@ Run the install script from the repository root to symlink every skill into your
 ./install.sh --dry-run # show what would be linked, change nothing
 ```
 
-Re-running is safe — it refreshes existing links and skips anything that isn't a skill. Once linked, Claude picks the skills up automatically.
+Re-running is safe. It refreshes existing links and skips anything that isn't a skill. Once linked, Claude picks the skills up automatically.
 
 ## Skills
 
 | Skill | Description |
 | --- | --- |
 | [socrates](./socrates/README.md) | Quizzes you Socratically on a conversation you just had, and only lets you declare yourself "done" once you've shown you actually understand the ideas. |
+| [draft-commit-message](./draft-commit-message/README.md) | Drafts a Conventional Commits message for the staged changes, sized to the complexity of the change, with no em or en dashes. |
 
 ## License
 
