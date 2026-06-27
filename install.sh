@@ -31,7 +31,7 @@ run() {
 $dry_run || mkdir -p "$skills_dir"
 
 found=false
-for skill_path in "$repo_dir"/*/; do
+for skill_path in "$repo_dir"/skills/*/; do
   [ -f "${skill_path}SKILL.md" ] || continue
   found=true
 

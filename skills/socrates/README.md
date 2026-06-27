@@ -40,7 +40,7 @@ You can't fake application from a definition. If you've only half-absorbed an id
 
 ## Installation
 
-This skill lives in the [skills collection](../README.md) as the `socrates/` directory (containing `SKILL.md`). To install it:
+This skill lives in the [skills collection](../../README.md) as the `socrates/` directory (containing `SKILL.md`). To install it:
 
 - **Claude Code:** run `./install.sh` from the repository root to symlink every skill into `~/.claude/skills/`, or copy the `socrates/` directory into your project's `.claude/skills/` directory manually.
 - **Claude.ai:** upload the `socrates/` directory as a `.skill` package through the Skills interface in settings.
