@@ -19,6 +19,7 @@ Re-running is safe. It refreshes existing links and skips anything that isn't a 
 | --- | --- |
 | [socrates](./socrates/README.md) | Quizzes you Socratically on a conversation you just had, and only lets you declare yourself "done" once you've shown you actually understand the ideas. |
 | [draft-commit-message](./draft-commit-message/README.md) | Drafts a Conventional Commits message for the staged changes, sized to the complexity of the change, with no em or en dashes. |
+| [commit-this](./commit-this/README.md) | Drafts a commit message (via draft-commit-message), gets your approval, then creates a signed commit of the staged changes, with an unsigned fallback and a Claude co-author trailer when Claude helped. |
 
 ## License
 
