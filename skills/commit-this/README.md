@@ -48,7 +48,7 @@ After you approve, Claude runs `git commit -S` and reports back, for example "Co
 
 ## Installation
 
-This skill lives in the [skills collection](../README.md) as the `commit-this/` directory (containing `SKILL.md`). To install it:
+This skill lives in the [skills collection](../../README.md) as the `commit-this/` directory (containing `SKILL.md`). To install it:
 
 - **Claude Code:** run `./install.sh` from the repository root to symlink every skill into `~/.claude/skills/`, or copy the `commit-this/` directory into your project's `.claude/skills/` directory manually.
 - **Claude.ai:** upload the `commit-this/` directory as a `.skill` package through the Skills interface in settings.

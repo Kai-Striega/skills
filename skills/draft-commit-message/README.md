@@ -50,7 +50,7 @@ The skill fires on natural phrasings, such as:
 
 ## Installation
 
-This skill lives in the [skills collection](../README.md) as the `draft-commit-message/` directory (containing `SKILL.md`). To install it:
+This skill lives in the [skills collection](../../README.md) as the `draft-commit-message/` directory (containing `SKILL.md`). To install it:
 
 - **Claude Code:** run `./install.sh` from the repository root to symlink every skill into `~/.claude/skills/`, or copy the `draft-commit-message/` directory into your project's `.claude/skills/` directory manually.
 - **Claude.ai:** upload the `draft-commit-message/` directory as a `.skill` package through the Skills interface in settings.
